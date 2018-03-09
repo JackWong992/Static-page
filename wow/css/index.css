@@ -81,25 +81,26 @@ header{
     margin-left: -8px;
 }
 main{
-   
+    border-top: 2px solid #030500;
 }
 main ul {
     margin-top: -324px;
-
-    /* border:1px solid red; */
 }
 main li{
     position: relative;
     width: 282px;
     height: 192px;
     float: left;
-    border: 3px solid #3f2a22;
-    margin-right: 18px;  
-    transition-duration: 5s;
-   
+    /* border: 3px solid #3f2a22; */
+    margin-right: 18px;     
 }
-.item:hover{
-    top: -15px;
+main .item a{
+   display: block;
+   transition: all .3s;
+}
+main .item:hover a{
+    /* border: 1px solid red; */
+    transform: translateY(30px);
 }
 .item a:hover h3{
     color: #fff;
@@ -108,19 +109,23 @@ main li:nth-child(4) {
     margin-right: 0;
 }
 main h3{
+    width: 276px;
     background: #211510;
     font-size: 20px;
     line-height: 50px;
     text-align: center;
     color: #f8b700;
     border-bottom: 2px solid #3f2a22;
+    border: 3px solid #3f2a22;
+    border-bottom: 1px solid #3f2a22;
 }
 main img{
-    width: 278px; 
+    width: 276px; 
     height: 134px;
+    border: 3px solid #3f2a22;
+    border-top: 1px solid #3f2a22;
 }
 footer{
-    /* border: 1px solid red; */
     margin-top:325px;
 }
 footer .bussiness{
@@ -133,15 +138,17 @@ footer .server{
     position: relative;
 }
 .server .item {
+    
     float: left;
     margin-right:20px; 
-    /* border: 1px solid white; */
  }
- .item a{
+ .server .item a{
      display: inline-block;
      color: #fff;    
-     vertical-align: middle;    
+     vertical-align: middle; 
+    
  }
+ 
  .server .icon{
      display: inline-block;
      width: 28px;
@@ -185,7 +192,6 @@ footer .server{
  .notice {
      float: left;
      margin-left: 96px;
-     /* border: 1px solid #ccc; */
      color: white;
      width: 609px;
      height: 130px;
