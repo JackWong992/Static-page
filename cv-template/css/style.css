@@ -1,0 +1,98 @@
+/*reset css*/
+h1,ul,li,p,span {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*commn css*/
+body {
+    background: #fff2e3;
+}
+.clearfix {
+    content:'';
+    display: block;
+    clear: both;
+}
+.layout {
+    width: 400px;
+    margin: 0 auto;
+}
+.textAlign{
+    text-align: center;
+}
+/*开始写main*/
+.title {
+    font-size: 45px;
+    padding: 35px 0;
+    color: #87968e;
+    /* border: 1px solid #fff; */
+}
+.introduce {
+    color: #87968e;
+    /* border: 1px solid #fff; */
+    padding: 20px 0;
+}
+.wrapper ul {
+    padding-left: 20px;
+}
+
+.wrapper .item {
+    /* border: 1px solid #fff; */
+    padding: 30px 0;
+    float: left;
+}
+.wrapper .item a{
+    display: inline-block;
+    background: #72b890;
+    color: #fff;
+    width: 64px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    line-height: 30px;
+    margin-left:10px; 
+}
+.active {
+    opacity: 0.8;
+}
+.wrapper .item a:hover {
+    opacity: 0.8;
+}
+.message {
+    /* border: 1px solid #fff; */
+}
+.message ul {
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.message .item {
+    float: left;
+    margin-right: 10px;
+    
+}
+.message .item a {
+    background: #72b890;
+    border-radius: 2px;
+    padding: 7px 10px;
+    color: #fff;
+}
+.message .item a:hover {
+    opacity: 0.8;
+}
+.footer {
+    /* border: 1px solid #fff; */
+}
+.footer .author {
+    margin-top: 65px;
+    text-align: center;
+    color: #87968e;
+}
+.author span{
+    color: #89cdd3;
+}
