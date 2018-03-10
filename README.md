@@ -19,5 +19,6 @@
 
 ---
 ### 3. flex重写cv-template<br>
-重新学了flex，决定要用flex重新写一下这个页面，虽然和这个页面和简单<br>
-预览地址：http://www.feelone.top/Static-page/cv-tempalte/flex-index.html
+重新学了flex，决定要用flex重新写一下这个页面，虽然这个页面看起来很简单<br>
+第二次重写了以后感觉很熟悉<br>
+预览地址：http://www.feelone.top/Static-page/cv-template/flex-index.html
