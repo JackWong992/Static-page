@@ -1,6 +1,6 @@
 # Static-page
 ---
-### wow：魔兽世界中文网站
+### 1.wow：魔兽世界中文网站
 * 大致过程：
 1. creat:html css images
 2. css reset / common css<br>
@@ -12,7 +12,12 @@
 
 ---
 
-### cv-template
+### 2. cv-template
 第二个静态页面算是完成了，我发现我写的代码真是惨不忍睹<br>
 最重要的是，我感觉我css写起来zTM难啊，为什么感觉别人很轻松呢？<br>
 预览地址：http://www.feelone.top/Static-page/cv-template/index.html<br>
+
+---
+### 3. flex重写cv-template<br>
+重新学了flex，决定要用flex重新写一下这个页面，虽然和这个页面和简单<br>
+预览地址：http://www.feelone.top/Static-page/cv-tempalte/flex-index.html
