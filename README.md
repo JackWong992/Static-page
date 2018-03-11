@@ -22,3 +22,10 @@
 重新学了flex，决定要用flex重新写一下这个页面，虽然这个页面看起来很简单<br>
 第二次重写了以后感觉很熟悉<br>
 预览地址：http://www.feelone.top/Static-page/cv-template/flex-index.html
+
+---
+### 4.手写一个简历的模板
+写这个模板的时候，我的水平是这样的：可以实现，但是代码质量很垃圾。和别人的对比了一下真的不堪入目<br>
+但是不管写的怎么样，这也是记录我成长的过程。我希望以后会回来重新写这个页面的，接下来的几个静态的页面可能就和Bootstrap有关了<br>
+对于没有设计而言的前端来说，bootstrap多少给我指明了方向<br>
+预览地址：http://www.feelone.top/Static-page/cv-tmplate-2/cv-template.html<br>
