@@ -1,0 +1,240 @@
+/*reset css*/
+* {
+    box-sizing: border-box;
+}
+ul,li {
+    list-style: none;
+}
+body,ul,li,p,h1,h2,h3,span {
+    margin: 0;
+    padding: 0;
+}
+/*commn css*/
+html,body {
+    background: #5d5d5d;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.layout {
+    width: 980px;
+    margin: 0 auto;
+}
+.wrapper {
+    width: 892px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 0 45px;
+}
+/*main css*/
+header {
+    /* padding-top: 36px;  */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #938e8c; 
+}
+header .logo {
+    color: #000;
+    padding-top: 35px;
+    width: 110px;
+    background: #d55d5c;
+    font-size: 13px;
+    color: #fff;
+}
+header .date {
+    color: #e7a05c;
+    padding-top: 35px;
+    font-size: 13px;    
+}
+section.banner {
+    margin-top: 36px;
+    display: flex;
+    justify-content: space-between; 
+}
+section .img {
+    width: 642px;
+    height: 300px;
+    background-image: url(../topbanner.png);
+    background-position: right center;
+    display: flex;
+    justify-content: space-between;
+}
+section .img .left-green {
+    height: 300px;
+    width: 150px;
+    background: rgba(66,140,89,0.5);
+}
+
+section .img .right-red {
+    height: 300px;
+    width: 150px;
+    background: rgba(229,186,191,0.5);
+}
+section .about {
+    width: 200px;
+    margin-left: 82px;
+}
+.about P:nth-child(1) {
+    border-top: 3px solid #938e8c;
+    font-size: 20px;
+    margin-bottom: 8px; 
+}
+.about P:nth-child(1) .footer {
+    font-size: 13px;
+}
+.about P:nth-child(1) .a-1 {
+    border-bottom: 1px solid #000;
+}
+.about P:nth-child(2) {
+    font-size: 14px;
+}
+.about P:nth-child(2)> span {
+    border-bottom: 1px solid #000;
+}
+.about P:nth-child(2) .t {
+    font-size: 16px;
+}
+.about P:nth-child(3) {
+    font-size: 12px;
+    font-style: italic;
+    transform: scale(0.7);
+    margin-left: -30px;
+}
+.about P:nth-child(4) {
+    font-weight: bold;
+    font-size: 90px;
+    font-style: italic;
+    color: #75b86b;
+    margin-top: 30px;
+}
+.about P:nth-child(5) {
+    font-size: 42px;
+    margin-top: 9px;
+    color: #cc8091;
+}
+section.content {
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+section.content ul {
+    display: flex;
+    justify-content: flex-start;
+}
+section.content li {
+    width: 240px;
+    margin-right: 24px;
+    font-size: 12px;
+}
+section.content li:nth-child(2) {
+    width: 196px;
+    height: 190px;
+}
+section.content li:nth-child(2)>a {
+    color: orange;
+}
+
+section.content li:nth-child(3) {
+    width: 160px; 
+}
+section.content li:nth-child(3)>a {
+    color: red;
+}
+
+section.content li:nth-child(3) #footer{
+    margin-top: 40px;
+}
+section.content .h-40 {
+    color: #cc7680;
+    font-style: italic;
+}
+section.content li>a {
+    font-size: 16px;
+    color: green;
+    font-weight: bold;
+}
+section.article {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+}
+section .content-l {
+    width: 412px;
+    
+}
+section .content-l .title {
+    font-size: 36px;
+    color: #11456b;
+    font-weight: bold;
+    border-bottom: 2px solid #000;
+}
+section.article .title .the {
+    font-style: italic;
+    font-size: 53px;
+    color: orange;
+}
+section .content-r {
+    width: 456px;
+   
+}
+section .content-l .content{
+    font-size: 12px;
+}
+section .content-l .content p{
+    text-indent: 2em;
+}
+.fir-1 {
+    color: orange;
+    font-size: 65px;
+}
+div.pic {
+    display: inline-block;
+    width: 166px;
+    height: 288px;
+    background: url(../task_1_6_1_11.png);
+    margin: 3px;
+    float: right;
+}
+section .content-r {
+    
+    margin-left: 8px;
+}
+section .content-r .code {
+    width: 458px;
+    height: 275px;
+    background: url(../code.png) no-repeat;
+    display: flex;
+}
+section .content-r .black {
+    width: 458px;
+    height: 70px;
+    background: rgba(0, 0, 0, .5);
+    margin-top: 186px;
+}
+section .content-r .black .font {
+    margin-left: 50px;
+    margin-top: 15px;
+    padding: 6px;
+    border-left: 2px solid #72b16a;
+}
+section .content-r .font .qianduan{
+    color: #fff;
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 15px;
+}
+section .content-r .font .jishu{
+    color: #72b16a;
+    font-style: italic;
+}
+.pic-b {
+    width: 459px;
+    height: 340px;
+    background: url(../2.png);
+    margin-top: 15px;
+}
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 20px;
+    color: #e7a05c;
+}
