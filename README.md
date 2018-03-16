@@ -29,3 +29,8 @@
 但是不管写的怎么样，这也是记录我成长的过程。我希望以后会回来重新写这个页面的，接下来的几个静态的页面可能就和Bootstrap有关了<br>
 对于没有设计而言的前端来说，bootstrap多少给我指明了方向<br>
 预览地址：http://www.feelone.top/Static-page/cv-tmplate-2/cv-template.html<br>
+
+----
+### 5. 百度ife新闻<br>
+尝试着使用了flex布局感觉还不错。<br>
+预览地址：http://www.feelone.top/Static-page/baidu-ife-news/index.html
