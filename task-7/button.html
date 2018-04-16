@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        div {
+            margin: 50px;
+        }
+        .steal,
+        .yellow,
+        .red,
+        .green {
+            padding: 6px;
+            line-height: 20px;
+            border-radius: 4px;
+        }
+        .steal {
+            background: #009688;
+            color: white;
+        }
+        .yellow {
+            background: yellow;
+        }
+        .red {
+            background: red;
+        }
+        .green {
+            background: green;
+        }
+        .steal:hover,
+        .yellow:hover,
+        .red:hover,
+        .green:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <a class="steal">steal</a>
+        <a class="yellow">yellow</a>
+        <a class="red">red</a>
+        <a class="green">green</a>
+    </div>
+</body>
+
+</html>
