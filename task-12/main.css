@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.layout {
+    width: 600px;
+    margin: 0 auto;
+}
+span {
+    display: block;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+}
+.box_1 > .aside {
+   background: green;
+   height: 400px;
+   margin-right: 230px;
+}
+.box_1 .content {
+    width: 200px;
+    height: 280px;
+    background: red;
+    float: right;
+}
+.box_2 > .aside {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background: red;
+}
+.box_2 > .aside:nth-child(2) {
+    float: right;
+}
+.box_2 > .content {
+    background: green;
+    margin-left: 240px;
+    margin-right: 240px;
+    height: 300px;
+}
+.box_3 {
+    width: 500px;
+    height: 400px;
+    background: #ccc;
+}
+.box_3 .content {
+    width: 300px;
+    height: 200px;
+    background: red;
+    margin: 0px auto;
+}
+.box_4 .content {
+    background: #ccc;
+    text-align: center;
+}
+.box_4 h2 {
+    padding-top: 40px;
+}
+.box_4 h4 {
+    padding-bottom: 40px;
+}
+.box_5 {
+    width: 600px;
+    height: 100px;
+    background: #ccc;
+    margin: 0 auto;
+    text-align: center;
+}
+.box_5 a {
+    display: inline-block;
+    background: red;
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    margin-top: 30px;
+}
+.box_6 {
+    width: 400px;
+    height: 275px;
+    background: #ccc;
+    text-align: center;
+}
+.box_6::before {
+    content:'';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+.box_6 img {
+    width: 80px;
+    vertical-align: middle;
+}
+.box_7 {
+    background: #ccc;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+.box_7 .content {
+    width: 100px;
+    height: 100px;
+    background: black;
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+   
+}
+.box_8 {
+    width: 400px;
+    height: 200px;
+    background: #ccc;
+    position: relative;
+}
+.box_8 .content {
+    padding: 10px;
+    border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

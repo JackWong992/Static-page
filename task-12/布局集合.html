@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>布局集合</h1>
+    <hr>
+    <span>1.实现一个两栏布局，右侧固定宽度200px，左侧自适应宽度</span>
+    <div class="box_1 ">
+        <div class="content"></div>
+        <div class="aside"></div>
+    </div>
+    
+    
+<span>实现原理：右侧固定，左侧自适应
+  固定元素浮动，固定元素先写。自适应元素通过margin-left/margin-right实现</span>
+    <hr>
+    <span>2. 实现一个三栏布局，两侧固定宽度200px，中间宽度自适应撑满</span>
+    <div class="box_2">
+        <div class="aside"></div>
+        <div class="aside"></div>
+        <div class="content"></div>
+    </div>
+    <hr>
+   <span>4. 块级元素（固定宽度高度）水平居中</span>
+    <div class="box_3 layout">
+        <div class="content">宽300，高200 水平居中</div>
+    </div>
+    <hr>
+   <span> 5. 大段文字在容器内水平垂直居中</span>
+    <div class="box_4 layout">
+        <div class="content">
+            <h2>这是标题</h2>
+            <h4>这是文字，水平垂直居中</h4>
+        </div>
+    </div>
+    <hr>
+    <span>6.并列三个按钮，在父容器内水平居中</span>
+    <div class="box_5 layout">
+        <a>按钮1</a>
+        <a>按钮2</a>
+        <a>按钮3</a>
+    </div>
+    <hr>
+    <span> 7.图片在容器内水平垂直居中，容器宽高大于图片宽高</span>
+    <div class="box_6 layout">
+        <img src="http://pic.962.net/up/2017-2/201721396494176.png" alt="">
+    </div>
+    <hr>
+  <span>   8. 固定宽高的块在浏览器窗口水平垂直居中</span>
+    <div class="box_7 layout">
+        <div class="content"></div>
+    </div>
+    <hr>
+   <span> 9.不定宽高的块在浏览器窗口水平垂直居中</span>
+    <div class="box_8 layout">
+        <div class="content">
+            这里是内容 <br>
+            这里的高度不固定
+        </div>
+    </div>
+</body>
+</html>
